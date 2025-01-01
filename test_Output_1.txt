@@ -1,0 +1,44 @@
+
+DevTools listening on ws://127.0.0.1:60467/devtools/browser/45602858-0774-41dd-a14d-137a7270673e
+Testing sequence: 5+3
+PASS: 5+3 = 8
+Testing sequence: 10-4
+PASS: 10-4 = 6
+Testing sequence: 7*3
+Created TensorFlow Lite XNNPACK delegate for CPU.
+PASS: 7*3 = 21
+Testing sequence: 12/4
+PASS: 12/4 = 3
+Testing sequence: 10/0
+PASS: 10/0 = Infinity
+Testing sequence: 0/10
+PASS: 0/10 = 0
+Testing sequence: 0*5
+Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+PASS: 0*5 = 0
+Testing sequence: 5+0
+PASS: 5+0 = 5
+Testing sequence: 5-0
+PASS: 5-0 = 5
+Testing sequence: -5+3
+PASS: -5+3 = -2
+Testing sequence: -7*-3
+FAIL: -7*-3. Expected 21, Got -10
+Testing sequence: -12/4
+PASS: -12/4 = -3
+Testing sequence: 5.5+3.2
+PASS: 5.5+3.2 = 8.7
+Testing sequence: 10.0-4.5
+PASS: 10.0-4.5 = 5.5
+Testing sequence: 7.2*3.1
+PASS: 7.2*3.1 = 22.32
+Testing sequence: 12.6/2.1
+FAIL: 12.6/2.1. Expected 6.0, Got 6
+Testing sequence: 5+3*2
+FAIL: 5+3*2. Expected 11, Got 16
+Testing sequence: 10-4/2
+FAIL: 10-4/2. Expected 8, Got 3
+Testing sequence: 7*3-2
+PASS: 7*3-2 = 19
+Testing sequence: 12/4+5
+PASS: 12/4+5 = 8
